@@ -1,0 +1,13 @@
+version: '3'
+
+services:
+  app:
+    image: usaneex/app:1.0.0
+    container_name: 67-strapi-cybersec
+    environment:
+      - DATABASE_CLIENT=postgres
+      - DATABASE_HOST=192.168.211.12
+      - DATABASE_PORT=54321
+      - DATABASE_NAME=usanee
+      - DATABASE_USERNAME=usanee
+      - DATABASE_PASSWORD=kmutnb64
